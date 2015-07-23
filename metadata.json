@@ -1,0 +1,12 @@
+{
+  "name": "jaredjennings/dns",
+  "version": "0.1.0",
+  "author": "Jared Jennings",
+  "summary": "Provide the functionality of the dns module from CMITS (boilerplate)",
+  "license": "Apache-2.0",
+  "source": "https://github.com/jaredjennings/puppet-cmits-dns",
+  "project_page": "https://github.com/jaredjennings/puppet-cmits-dns",
+  "issues_url": "https://github.com/jaredjennings/puppet-cmits-dns/issues",
+  "dependencies": []
+}
+
