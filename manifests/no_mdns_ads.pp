@@ -16,5 +16,6 @@
 # \subsection{Turn off MDNS advertisements}
 
 class dns::no_mdns_ads {
-    include "dns::no_mdns_ads::${::osfamily}"
+    $lower_osfamily = downcase($::osfamily)
+    include "dns::no_mdns_ads::${lower_osfamily}"
 }
